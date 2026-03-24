@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
         bucket = "cbz-terraform-srushti"
-        region = "ap-south-1"
+        region = "us-east-1"
         key = "terraform.tfstate"
     }
 }
