@@ -1,10 +1,11 @@
-terraform {
+/*
     backend "s3" {
         bucket = "jenkins-bucket-srushti"
         region = "us-east-1"
         key = "terraform.tfstate"
     }
 }
+*/
 
 provider "aws" {
     region = var.aws_region
